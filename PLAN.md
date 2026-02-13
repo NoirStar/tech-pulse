@@ -292,16 +292,16 @@ tech-pulse/
 - [ ] Supabase 프로젝트 생성 & DB 스키마 설계 (→ Phase 1에서)
 - [ ] Vercel 배포 연동 (→ Phase 1에서)
 
-### Phase 1: Tier 1 핵심 수집기 (Day 2-5)
-- [ ] 공통 수집기 인터페이스 & 파이프라인 설계
-- [ ] GitHub Trending 크롤러 (Cheerio)
-- [ ] YouTube Data API v3 수집기
-- [ ] Google Trends + 실시간 검색 수집기
-- [ ] Hacker News API 수집기
-- [ ] 키워드 추출 엔진 (제목/설명에서 기술 키워드 추출)
+### Phase 1: Tier 1 핵심 수집기 (Day 2-5) ✅
+- [x] 공통 수집기 인터페이스 & 파이프라인 설계
+- [x] GitHub Trending 크롤러 (Cheerio)
+- [x] YouTube Data API v3 수집기
+- [x] Google Trends + 실시간 검색 수집기
+- [x] Hacker News API 수집기
+- [x] 키워드 추출 엔진 (제목/설명에서 기술 키워드 추출)
 - [ ] Supabase에 수집 데이터 저장 파이프라인
-- [ ] Vercel Cron 1시간 주기 수집 스케줄링
-- [ ] ✅ **테스트**: 각 수집기 단위 테스트 + 파이프라인 통합 테스트 통과
+- [x] Vercel Cron 1시간 주기 수집 스케줄링
+- [x] ✅ **테스트**: 각 수집기 단위 테스트 + 파이프라인 통합 테스트 통과 (55개)
 
 ### Phase 2: Tier 2+3 확장 수집기 (Day 6-9)
 - [ ] X (Twitter) API v2 수집기

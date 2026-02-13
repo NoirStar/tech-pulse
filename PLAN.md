@@ -281,14 +281,15 @@ tech-pulse/
 
 ## 개발 로드맵
 
-### Phase 0: 프로젝트 세팅 (Day 1)
+### Phase 0: 프로젝트 세팅 (Day 1) ✅
 - [x] PLAN.md 작성
-- [ ] GitHub 레포지토리 생성
-- [ ] React + Vite + TypeScript 프로젝트 초기화
-- [ ] Tailwind CSS + shadcn/ui 설정
-- [ ] ESLint + Prettier 설정
-- [ ] Supabase 프로젝트 생성 & DB 스키마 설계
-- [ ] Vercel 배포 연동
+- [x] GitHub 레포지토리 생성
+- [x] React + Vite + TypeScript 프로젝트 초기화
+- [x] Tailwind CSS v4 + shadcn/ui 설정
+- [x] ESLint + Prettier 설정
+- [x] 프로젝트 구조 & 타입 정의 & 목데이터 대시보드
+- [ ] Supabase 프로젝트 생성 & DB 스키마 설계 (→ Phase 1에서)
+- [ ] Vercel 배포 연동 (→ Phase 1에서)
 
 ### Phase 1: Tier 1 핵심 수집기 (Day 2-5)
 - [ ] 공통 수집기 인터페이스 & 파이프라인 설계

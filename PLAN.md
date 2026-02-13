@@ -304,17 +304,18 @@ tech-pulse/
 - [x] ✅ **테스트**: 각 수집기 단위 테스트 + 파이프라인 통합 테스트 통과 (55개)
 
 ### Phase 2: Tier 2+3 확장 수집기 (Day 6-9)
-- [ ] X (Twitter) API v2 수집기
-- [ ] Reddit JSON API 수집기
-- [ ] Product Hunt GraphQL 수집기
-- [ ] Dev.to / Medium RSS 수집기
+- [x] X (Twitter) API v2 수집기
+- [x] Reddit JSON API 수집기
+- [x] Product Hunt GraphQL 수집기
+- [x] Dev.to / Medium RSS 수집기
 - [ ] Facebook 공개 그룹 크롤러
-- [ ] Stack Overflow API 수집기
-- [ ] 네이버 IT 뉴스 크롤러 + 네이버 API
-- [ ] GeekNews 크롤러
-- [ ] 카카오/토스 기술 블로그 RSS 수집기
-- [ ] 요즘IT / 코드너리 크롤러
-- [ ] ✅ **테스트**: 각 수집기 단위 테스트 + RSS 파서 테스트 통과
+- [x] Stack Overflow API 수집기
+- [x] 네이버 IT 뉴스 크롤러 + 네이버 API
+- [x] GeekNews 크롤러
+- [x] 카카오/토스/우아한형제들/LINE/D2 기술 블로그 RSS 수집기
+- [x] 요즘IT / 코드너리 크롤러
+- [x] 수집기 레지스트리 확장 (createTier2/3Collectors, createAllCollectors)
+- [x] ✅ **테스트**: 12개 수집기 단위 테스트 + 레지스트리 테스트 통과 (186개 총 테스트, 83개 신규)
 
 ### Phase 3: 키워드 분석 엔진 (Day 10-12)
 - [ ] 수집 데이터 기반 키워드 빈도 분석
